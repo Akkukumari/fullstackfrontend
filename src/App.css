@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+
+.login-background{
+  border: 1px solid rgba(9, 162, 162, 0.303);
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  align-items: center;
+  margin-top: 200px;
+  border-radius: 18px;
+  background-color:rgba(9, 162, 162, 0.303)
+}
+
+.mainBody{
+  /* border: 1px solid red; */
+  width: 70%;
+  height: 350px;
+  margin: auto;
+  margin-top: 35px;
+  padding-top: 80px;
+  border-radius: 16px;
+  background-color:rgb(102, 102, 174)
+}
+.login{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  /* padding-top: 2px; */
+margin-top: 3px;
+}
+
+.inputBox{
+  width: 50%;
+  height: 90px;
+  margin: auto;
+}
+
+.email, .password{
+  width: 90%;
+  height: 30px;
+  margin: auto;
+}
+
+.remeber{
+  width: 40%;
+  height: 30px;
+  margin: auto;
+  margin-left: 50px;
+}
+.emailInfo, .passwordInfo{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.rememberInfo{
+  /* text-align: center; */
+  font-size: 18px;
+  font-weight: 500;
+   margin-right: 150px;
+  margin-left:30px
+}
+
+.rememberme{
+  display: flex;
+  margin: auto;
+  gap: 20px;
+}
+
+.loginn{
+  width: 16%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 40%; */
+  height: 30px;
+  margin: auto;
+  margin-left: 280px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 6px;
+}
